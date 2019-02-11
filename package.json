@@ -1,5 +1,5 @@
 {
-  "name": "meirOverferstSite",
+  "name": "Routing",
   "version": "1.0.0",
   "description": "Only a webpack tutorial, and webpack is used",
   "main": "index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MeirOverferst/MeirOverferstSite.git"
+    "url": "git+https://github.com/MeirOverferst/Routing.git"
   },
   "keywords": [
     "webpack",
@@ -23,9 +23,9 @@
   "author": " ",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MeirOverferst/MeirOverferstSite/issues"
+    "url": "https://github.com/MeirOverferst/Routing.git"
   },
-  "homepage": "https://github.com/MeirOverferst/MeirOverferstSite#readme",
+  "homepage": "https://github.com/MeirOverferst//Routing#readme",
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
