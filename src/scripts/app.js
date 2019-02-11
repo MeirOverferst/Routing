@@ -1,32 +1,18 @@
-import '../styles/main.scss';
+import '../styles/main.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-class MyTitle extends React.Component {
-
-  constructor(props) {
-    super(props);
-    this.handleClick = this.handleClick.bind(this);
-  }
+import { RoutingTask } from './11-2-19FirstRoutingTask';
 
 
-  handleClick(ev) {
-    this.refs.myImage.style.width = '900px';
-  }
+
+class App extends React.Component {
 
   render() {
-
-    const framework = 'React';
-
     return (
-      <div>
-        <button onClick={this.handleClick}>Click me</button>
-        <h1 className="green big">Welcome to {framework} world</h1>
-        <img src="./images/home.jpg" width="300" height="300" ref="myImage" />
-      </div>
-    );
+      <RoutingTask />
+    )
   }
 }
 
-ReactDOM.render(<MyTitle />, document.getElementById('app'));
+ReactDOM.render(<App />, document.getElementById('app'));
 
