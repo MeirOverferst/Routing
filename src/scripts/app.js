@@ -7,7 +7,6 @@ class DepictSpecificInfoFish extends React.Component {
     return <p className="lead">Info about {this.props.match.params.fishtype}</p>;
   }
 }
-
 class FishesSection extends React.Component {
   render() {
     return (
